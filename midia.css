@@ -44,3 +44,43 @@
     transform: translateY(-3px);
     box-shadow: 0 10px 25px rgba(255,255,255,0.3);
 }
+
+/*PAZ*/
+
+.paz {
+    padding: 80px 4%;
+    text-align: center;
+}
+
+.paz .flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.paz-img img {
+    width: 250px;
+    border-radius: 15px;
+}
+
+.paz-titulo {
+    margin: 15px;
+    color: rgb(80, 80, 230);
+}
+
+.paz-sub {
+    margin-bottom: 50px;
+}
+
+.button-segundo {
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    background: rgb(80, 80, 230);
+    border-radius: 15px;
+}
+
+.button-segundo:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 25px rgba(59, 49, 202, 0.3);
+}
+
