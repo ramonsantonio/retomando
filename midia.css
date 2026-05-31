@@ -6,3 +6,41 @@
     padding: 0%;
 }
 
+.inicial {
+    padding: 80px 4%;
+    background-color: rgb(80, 80, 230);
+}
+
+.inicial .flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.inicial-img img {
+    width:440px ;
+}
+
+.inicial-titulo {
+    color: white;
+    padding-bottom: 10px;
+}
+
+.inicial-sub {
+    color: white;
+    padding-bottom: 20px;
+    font-size: italic;
+}
+
+.button {
+    color: rgb(80, 80, 230);
+    padding: 10px 20px;
+    text-decoration: none;
+    background: white;
+    border-radius: 15px;
+}
+
+.button:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 25px rgba(255,255,255,0.3);
+}
