@@ -7,7 +7,7 @@
 }
 
 .inicial {
-    padding: 80px 4%;
+    padding: 0px 4%;
     background-color: rgb(80, 80, 230);
 }
 
@@ -55,11 +55,24 @@
 .paz .flex {
     display: flex;
     justify-content: space-between;
+    
+}
+
+.conteudo {
+    border: 2px solid rgba(80, 80, 230, 0.671);
+    border-radius: 15px;
+    padding: 10px;
+    margin: 20px;
+}
+
+.conteudo:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 25px rgba(59, 49, 202, 0.3);
 }
 
 .paz-img img {
     width: 250px;
-    border-radius: 15px;
+    border-radius: 15px;   
 }
 
 .paz-titulo {
@@ -68,7 +81,7 @@
 }
 
 .paz-sub {
-    margin-bottom: 50px;
+    margin-bottom: 10px;
 }
 
 .button-segundo {
