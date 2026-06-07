@@ -93,6 +93,7 @@
 }
 
 .button-segundo:hover {
+    color: black;
     transform: translateY(-3px);
     box-shadow: 0 10px 25px rgba(59, 49, 202, 0.3);
 }
